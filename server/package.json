@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@tensorflow-models/depth-estimation": "^0.0.4",
+    "@tensorflow-models/body-segmentation":"^1.0.2 ",
+    "@mediapipe/selfie_segmentation":"^0.1.1675465747",
+    "@tensorflow/tfjs": "^4.20.0",
+    "@tensorflow/tfjs-converter": "^4.20.0",
+    "@tensorflow/tfjs-core": "^4.20.0",
+    "@tensorflow/tfjs-node": "^4.20.0",
+    "@tensorflow/tfjs-backend-cpu": "^4.20.0",
+    "@tensorflow/tfjs-backend-webgl": "^4.20.0",
+    "@tensorflow/tfjs-node-gpu":"^4.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.0.0",
+    "multer": "^1.4.5-lts.1",
+    "sharp":"0.33.4"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+  
+}
